@@ -2,6 +2,32 @@
 
 All notable changes to Hyde Music. Downloads are on the [Releases](https://github.com/Hyde-OpenSource/Hyde-Music-Andorid/releases) page.
 
+## 6.0.2 — 2026-10-11
+
+Playlists and imports work again, songs in long lists start sooner, and reloading is a pull.
+
+### Fixed
+
+- **Creating a playlist works.** New playlists were saved but never showed up in your library. They appear as soon as you create them, and "New Playlist…" in *Add to Playlist* works too.
+- **Import from Spotify works.** Every link failed, because Spotify stopped accepting the anonymous access the app used. Hyde now reads the playlist's public page instead. Paste a public playlist link, tap *Fetch Playlist*, then *Save to Library*.
+  - Spotify shares only the first 100 songs of a playlist this way. For a longer playlist, export it as a CSV file and use the CSV import below.
+- **Import playlist from CSV works.** The songs in the file were never matched, so nothing was added. Hyde now reads the file, finds each song, and saves them as a new playlist named after the file. Supported: Exportify and TuneMyMusic exports, a plain `title,artist` list, M3U playlists, and text files with one `Title - Artist` per line.
+- **Importing is faster.** Four songs are looked up at a time, and each match is no longer fetched twice.
+- **Downloaded songs start sooner.** Tapping a song in a long list (Downloads, Liked Songs) made the app look up every song in the list one at a time before playing. It's now one lookup. A finished download also always plays straight from the download instead of asking for a stream first.
+- **The refresh spinner is in the right place.** It showed inside the top bar and needed a very long pull. It now appears between the bar and the title after a normal pull.
+- **Pull-to-refresh works on Library, Explore and History.** It never triggered there.
+
+### Changed
+
+- **Home's reload button is gone.** Pull down to reload.
+
+### Install
+
+- **Phone (arm64, almost every phone since 2017):** `HydeMusic-6.0.2-arm64-release.apk`
+- **Any other device:** `HydeMusic-6.0.2-universal-release.apk`
+
+Installs over 6.0.1 and earlier releases signed with the Hyde Open Source key, and keeps your library, playlists, downloads and settings. Or update from inside the app: *Settings › App › Software Update*.
+
 ## 6.0.1 — 2026-10-11
 
 A quick update that makes lyrics feel right.
