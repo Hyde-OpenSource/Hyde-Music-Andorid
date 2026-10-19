@@ -2,6 +2,27 @@
 
 All notable changes to Hyde Music. Downloads are on the [Releases](https://github.com/Hyde-OpenSource/Hyde-Music-Andorid/releases) page.
 
+## 6.2.0 — 2026-10-19
+
+Highest-quality downloads, an updater that just works, and news from Hyde inside the app.
+
+### New
+
+- **Highest-quality downloads.** When you download a song, choose **Highest quality** (320 kbps, where available) or **Standard quality**. *Download all* picks the highest available for each song automatically.
+- **Updates that just work.** A big update card appears on Home whenever an update is waiting. One tap downloads, installs and reopens Hyde. After your first in-app update, later updates install without Android's install screen (Android 12+).
+- **News from Hyde.** Announcements and tips as a card, a Home banner, a notification or a “From Hyde” item in Settings — no app update needed.
+
+### Fixed
+
+- Background update downloads no longer stop partway through; they resume where they left off.
+- Updates no longer always show Android's install screen.
+- An update waiting for confirmation no longer sits on “Installing…” forever.
+
+### Changed
+
+- Update downloads are no longer Wi-Fi-only by default.
+- New *Install automatically* switch in Settings › App › Software Update.
+
 ## 6.1.0 — 2026-10-19
 
 More songs play, the Library is cleaner, there's a real shuffle button on the player, and you decide what's shared.
