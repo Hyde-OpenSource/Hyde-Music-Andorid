@@ -2,7 +2,7 @@
 
 A modern, fast and elegant music streaming app for Android, with a Liquid Glass interface, word-by-word lyrics and no ads.
 
-**Latest: [Version 6.0.2](https://github.com/Hyde-OpenSource/Hyde-Music-Andorid/releases/latest)** · Also on [Windows & Linux](https://github.com/Hyde-OpenSource/Hyde-Music-Desktop) · [Website](https://www.hydeos.tech/music-docs.html) · [Changelog](CHANGELOG.md)
+**Latest: [Version 6.1.0](https://github.com/Hyde-OpenSource/Hyde-Music-Andorid/releases/latest)** · Also on [Windows & Linux](https://github.com/Hyde-OpenSource/Hyde-Music-Desktop) · [Website](https://www.hydeos.tech/music-docs.html) · [Changelog](CHANGELOG.md)
 
 <p align="center">
   <img src="screenshots/lyrics.jpg" width="200" alt="Word-by-word lyrics">

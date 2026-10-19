@@ -2,6 +2,26 @@
 
 All notable changes to Hyde Music. Downloads are on the [Releases](https://github.com/Hyde-OpenSource/Hyde-Music-Andorid/releases) page.
 
+## 6.1.0 — 2026-10-19
+
+More songs play, the Library is cleaner, there's a real shuffle button on the player, and you decide what's shared.
+
+### New
+
+- **A shuffle button on the player.** Right on the Now Playing screen, next to AI Shuffle.
+- **Quick buttons on Library.** History, Stats and more are a tap away from the top of Library.
+- **Clear privacy controls.** Anonymous analytics cover your device and app info only — never what you play or search — with a one-tap off switch in *Settings › App › Privacy*.
+
+### Fixed
+
+- **More songs just play.** Tracks blocked in your region — some remixes and acoustic versions like "Jhol Acoustic" — now find a playable source, and download too.
+- **Maintenance screen button.** Its label was invisible; it now reads correctly, and remote changes apply without reopening the app.
+
+### Changed
+
+- **A cleaner Library.** Nearby Sync is gone, "Your Year" is tucked away until it's in season, and the list is shorter so your playlists stay in view.
+- **Snappier pop and press animations** across the app.
+
 ## 6.0.2 — 2026-10-11
 
 Playlists and imports work again, songs in long lists start sooner, and reloading is a pull.
