@@ -2,6 +2,18 @@
 
 All notable changes to Hyde Music. Downloads are on the [Releases](https://github.com/Hyde-OpenSource/Hyde-Music-Andorid/releases) page.
 
+## 6.2.1 — 2026-10-20
+
+A rolling clock-style timer on the player, and proper hours for long songs.
+
+### Changed
+
+- The player's time rolls like a clock: only the digits that change slide as the song plays.
+
+### Fixed
+
+- Songs and mixes an hour or longer showed minutes past 60 (“-64:29”); they now show “-1:04:29”.
+
 ## 6.2.0 — 2026-10-19
 
 Highest-quality downloads, an updater that just works, and news from Hyde inside the app.
