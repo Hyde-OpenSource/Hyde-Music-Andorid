@@ -2,6 +2,34 @@
 
 All notable changes to Hyde Music. Downloads are on the [Releases](https://github.com/Hyde-OpenSource/Hyde-Music-Andorid/releases) page.
 
+## 6.3.0 — 2026-10-27
+
+Smaller, faster, and in your language — plus a real equalizer and smart downloads.
+
+### New
+- **Equalizer.** Five bands, presets and your own curve, applied live while you listen (Settings › Audio Enhancer › Adjust bands).
+- **Smart downloads.** Keep your most-played songs (25–200) downloaded in the highest quality, automatically in the background (Settings › Storage). Songs you delete stay deleted.
+- **Hyde in your language.** Follows your phone's language or Settings › App › App language. Fully translated: Hindi, Spanish, Portuguese, Indonesian, Russian, Turkish, French and German; about 30 more languages are partly translated.
+- **New widget.** Colour from the artwork, rounded cover, and a new large size.
+- **Favorites** in Library: every song you liked, one tap away.
+- **Crash reports** help fix problems faster (never what you play; off when Anonymous analytics is off).
+
+### Faster
+- The download is about half the size, so the app opens faster and updates download quicker.
+- The next song is ready before you skip.
+- Home opens instantly with your last shelves and refreshes in the background.
+
+### Changed
+- Google Translate lyrics translation is now the default, free, and downloads nothing up front.
+- Japanese romanization fetches its dictionary the first time you need it.
+
+
+### Release checks and compatibility
+- Fixed widget layouts so Android launchers can load the compact and large widgets.
+- Wi-Fi scanning handles denied or revoked permissions.
+- Transcription shows a clear compatibility message on Android 8–9; Android 10+ supports the ICU transcription mode.
+- Universal downloads support ARM 32/64-bit and x86_64. 32-bit x86 is unsupported by Flutter.
+
 ## 6.2.1 — 2026-10-20
 
 A rolling clock-style timer on the player, and proper hours for long songs.
