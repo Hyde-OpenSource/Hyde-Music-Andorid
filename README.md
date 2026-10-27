@@ -51,7 +51,7 @@ Full notes: [CHANGELOG.md](CHANGELOG.md)
 1. Open the [latest release](https://github.com/Hyde-OpenSource/Hyde-Music-Andorid/releases/latest).
 2. Download the APK for your phone:
    * `HydeMusic-<version>-arm64-release.apk` for almost every phone made since 2017 (smaller download)
-   * `HydeMusic-<version>-universal-release.apk` if you're not sure, or the arm64 one won't install
+   * `HydeMusic-<version>-0-universal-release.apk` if you're not sure, or the arm64 one won't install
 3. Open the file and allow *Install unknown apps* for your browser or file manager if Android asks.
 
 Already on Hyde Music? Install 6.3.0 over your current version to keep your library, playlists, downloads and settings. The release uses the same Hyde Open Source signing key as 6.2.1.
