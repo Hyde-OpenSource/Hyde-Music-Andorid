@@ -2,7 +2,7 @@
 
 A modern, fast and elegant music streaming app for Android, with a Liquid Glass interface, word-by-word lyrics and no ads.
 
-**Latest: [Version 6.3.0](https://github.com/Hyde-OpenSource/Hyde-Music-Andorid/releases/latest)** · Also on [Windows & Linux](https://github.com/Hyde-OpenSource/Hyde-Music-Desktop) · [Website](https://www.hydeos.tech/music-docs.html) · [Changelog](CHANGELOG.md)
+**Latest: [Version 6.5.0](https://github.com/Hyde-OpenSource/Hyde-Music-Andorid/releases/latest)** · Also on [Windows & Linux](https://github.com/Hyde-OpenSource/Hyde-Music-Desktop) · [Website](https://www.hydeos.tech/music-docs.html) · [Changelog](CHANGELOG.md)
 
 <p align="center">
   <img src="screenshots/lyrics.jpg" width="200" alt="Word-by-word lyrics">
@@ -13,14 +13,17 @@ A modern, fast and elegant music streaming app for Android, with a Liquid Glass 
 
 ---
 
-## ✨ What's new in 6.3.0
+## ✨ What's new in 6.5.0
 
-* **Five-band equalizer** with presets and a custom curve, applied live.
-* **Smart downloads** keep your most-played songs ready offline, with Wi-Fi controls.
-* **Your language**: eight fully translated languages, plus partial translations for about 30 more.
-* **Updated widgets** with artwork colours and a large layout, plus Favorites in Library.
-* **Smaller downloads**: about 36 MB for arm64 and 75 MB for universal, with faster Home loading and track transitions.
-* **Crash reporting controls**: reports follow the Anonymous analytics setting in Privacy.
+* Authentic original artwork, full-art inspection, and stable player cover sizing.
+* Lighter Liquid Glass, stationary menus, and a welcome flow above all player chrome.
+* Continue listening and up to six persistent Home shortcuts.
+* AI Shuffle suggestions, density controls and Reshuffle.
+* Optional audio-output EQ profiles and accessibility refinements.
+* Listen Together timing, buffering, reconnect, participant-control and chat corrections.
+* Cast playback controls now follow the receiver's real state and position.
+
+Custom TV lyrics activation is deferred pending Google Cast registration.
 
 Full notes: [CHANGELOG.md](CHANGELOG.md)
 
@@ -54,7 +57,7 @@ Full notes: [CHANGELOG.md](CHANGELOG.md)
    * `HydeMusic-<version>-0-universal-release.apk` if you're not sure, or the arm64 one won't install
 3. Open the file and allow *Install unknown apps* for your browser or file manager if Android asks.
 
-Already on Hyde Music? Install 6.3.0 over your current version to keep your library, playlists, downloads and settings. The release uses the same Hyde Open Source signing key as 6.2.1.
+Already on Hyde Music? Install 6.5.0 over your current version to keep your library, playlists, downloads and settings. The release uses the same Hyde Open Source signing key as 6.2.1.
 
 **Verify a download (optional):** compare `sha256sum <file>.apk` with `SHA256SUMS` in the release.
 

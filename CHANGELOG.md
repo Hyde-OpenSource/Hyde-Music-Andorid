@@ -2,6 +2,36 @@
 
 All notable changes to Hyde Music. Downloads are on the [Releases](https://github.com/Hyde-OpenSource/Hyde-Music-Andorid/releases) page.
 
+## 6.5.0 — 2026-11-01
+
+Artwork, Liquid Glass, and listening together.
+
+- Higher-quality authentic cover sources across Home, Search, Library and the
+  player, with cached originals and a full-artwork inspection view.
+- Stable player artwork size between play and pause, preserving the familiar
+  open Now Playing layout.
+- Lighter refracting Liquid Glass, stationary three-dot menus, and a welcome
+  flow that fully covers the player and navigation bar.
+- Continue listening and up to six persistent, reorderable Home shortcuts.
+- AI Shuffle suggestions, queue labels, density controls and Reshuffle.
+- Optional equalizer profiles for different audio outputs.
+- Accessibility, large-text, reduced-motion and RTL layout improvements.
+- Listen Together transport, clock timing, buffering, reconnect, participant
+  controls and chat corrections. Requires the matching room-server deployment.
+- Cast transport, position, seeking and volume now follow the receiver.
+
+The custom Hyde TV lyrics receiver is prepared separately. It is not activated
+in this release: its Google Cast registration/application ID is being deferred.
+Existing Google Cast playback remains available.
+
+Install over your existing Hyde Music installation to retain its local data.
+Android 8.0 or newer is required. ARM64 is recommended for most modern phones;
+choose Universal when unsure.
+
+Automated checks and release signing are recorded with the published artifacts.
+Real two-phone room timing, output routing and TV firmware/stream compatibility
+still require hardware validation; automated tests do not establish those results.
+
 ## 6.3.0 — 2026-10-27
 
 Smaller, faster, and in your language — plus a real equalizer and smart downloads.
